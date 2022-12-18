@@ -63,7 +63,7 @@ CONFIG_SCHEMA = vol.Schema(
                 ): str,
                 vol.Optional(CONF_COUNTRY, default="ES"): str,
                 vol.Optional(CONF_ALARM, default=True): bool,
-                vol.Optional(CONF_CODE, default=4): str,
+                vol.Optional(CONF_CODE, default=4): int,
                 vol.Optional(CONF_CHECK_ALARM_PANEL, default=True): bool,
                 vol.Optional(CONF_SCAN_INTERVAL, default=DEFAULT_SCAN_INTERVAL): int,
             }
